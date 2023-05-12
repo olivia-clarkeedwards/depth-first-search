@@ -4,8 +4,8 @@ Description: Prints number of connected components based on given adjacency list
 Author: Olivia Clarke-Edwards
 
 '''
-adjacency_graph = [[1], [2], [3, 5], [2, 4], [2, 3], [2, 6], [5, 7, 8], [6], [6]]
-n = len(adjacency_graph)
+graph = [[1], [2], [3, 5], [2, 4], [2, 3], [2, 6], [5, 7, 8], [6], [6]]
+n = len(graph)
 count = 0
 components = [[] for _ in range(n)]
 visited = [False for _ in range(n)]
@@ -24,7 +24,7 @@ def dfs(current):
     visited[current] = True
     components[current] = count
 
-    for next in adjacency_graph[current]:
+    for next in graph[current]:
         if not visited[next]:
             dfs(next)
 
