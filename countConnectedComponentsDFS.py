@@ -1,6 +1,6 @@
 '''
 
-Description: Prints depth-first search based on given adjacency list. 
+Description: Prints number of connected components based on given adjacency list. 
 Author: Olivia Clarke-Edwards
 
 '''
