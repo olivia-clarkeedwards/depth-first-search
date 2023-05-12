@@ -1,6 +1,8 @@
 '''
 
-Description: Prints number of connected components based on given adjacency list. 
+Description: Prints number of connected components, 
+and an array of which nodes belong to which components, 
+based on given adjacency list. 
 Author: Olivia Clarke-Edwards
 
 '''
