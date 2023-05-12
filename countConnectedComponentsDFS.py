@@ -35,6 +35,7 @@ def test(g):
 
 test(graph1)
 test(graph2)
+test([])
 
     
 
